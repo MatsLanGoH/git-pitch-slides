@@ -100,17 +100,8 @@
 ![Ergodox](git-pitch-bpstyle92/assets/ergodox.jpg)
 
 +++
-### Let's Split (別れようぜ)
-@div[left-50]
+### Let's Split
 ![Let's Split](git-pitch-bpstyle92/assets/letssplit_mac.jpg)
-@divend
-
-@div[right-50]
-@ul[brighten]
-  * Let's Split (別れようぜ)
-  * 合同購入企画で日本中の自作キーボードファンに火をつけた
-@ulend
-@divend
 
 ---
 ### 写真
@@ -119,6 +110,7 @@
 +++
 ### ...むしろ家族写真が__main__に 
 ![Kids](git-pitch-bpstyle92/assets/eightbit_.jpg)
+(娘4才)（息子1才）
 ---
 
 ### matsu雑学
