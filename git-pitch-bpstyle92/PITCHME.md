@@ -99,7 +99,7 @@
 
 +++
 ### 自家用: Ergodox Infinity
-![Ergodox](git-pitch-bpstyle92/assets/ergodox.jpg&size=auto)
+![Ergodox](git-pitch-bpstyle92/assets/ergodox.jpg)
 
 +++
 ### 分割型
@@ -107,14 +107,14 @@
   * 合同購入企画で日本中の自作キーボードファンに火をつけた
 +++
 ### Let's Split (別れようぜ)
-![Let's Split](git-pitch-bpstyle92/assets/letssplit_mac.jpg&size=auto)
+![Let's Split](git-pitch-bpstyle92/assets/letssplit_mac.jpg)
 
 ---
 ## 写真
 +++
 ### 写真
   * 最近放置気味だけれど[公開アルバム](https://www.flickr.com/people/sandocap/)
-![Flickr](git-pitch-bpstyle92/assets/flickr_title.png&size=auto)
+![Flickr](git-pitch-bpstyle92/assets/flickr_title.png)
 ---
 
 ## matsu雑学
