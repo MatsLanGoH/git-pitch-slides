@@ -32,14 +32,14 @@
 ### 前職の話
 @ul[brighten]
   * びっくりするくらいアナログな世界
-  * 会議は終わらない
-  * 紙大好き（１年分の資料を並べると23区を一周できそう）
-  * 効率よく仕事しづらい
-  * ...ぐちやめよう o( ͡° ͜ʖ ͡°)k
+  * いつ終わるかわからない会議が多い
+  * 紙大好き（１年分の資料を並べたら山手線くらいある）
+  * これ以上成長できる場所ではないので転職するしかっ
+  * o( ͡° ͜ʖ ͡°)k
 @ulend
 
 ---
-### 転職理由
+### 独学Programmerになる
 @ul[brighten]
   * 昔からOS周りいじるのが好きだけど大学の情報学部に入らないとなれないイメージ
   * 2015年にたまたまedXでHarvard UniversityのCS50: Introduction to Computer Scienceに出会う
@@ -101,10 +101,11 @@
 +++
 ### Let's Split
 ![Let's Split](git-pitch-bpstyle92/assets/letssplit_mac.jpg)
-
++++
+### キーボードの続きはどこかのBPLLで
 ---
 ### 写真
-最近放置気味だけれど[公開アルバム](https://www.flickr.com/people/sandocap/)
+最近放置気味だけれど[flickr]やっている(https://www.flickr.com/people/sandocap/)
 ![Flickr](git-pitch-bpstyle92/assets/flickr_title.png)
 +++
 ### ...むしろ家族写真が__main__に 
@@ -117,6 +118,7 @@
  * 世の中全てを[dracula theme](https://draculatheme.com/)に染めたい
  * heavy metalをこよなく愛しているがコーディングの時だけは[エレクトロニカを聴く](https://www.last.fm/user/anonelbe)
  * Gamer（主にRPGだけど最近は時間がないよね）
+ * 得意料理が麻婆豆腐と[Gulasch](https://en.wikipedia.org/wiki/Goulash)
 @ulend
 
 ---
