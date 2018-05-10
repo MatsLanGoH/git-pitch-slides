@@ -80,9 +80,11 @@
 +++
 ### 愛機: Neon Planck
 @div[left-50]
----?image=git-pitch-bpstyle92/assets/planck_neon.jpg&size=auto
+<br>
+![Neon Planck](git-pitch-bpstyle92/assets/planck_neon.jpg&size=auto)
 @divend
 @div[right-50]
+<br><br><br>
 @ul[brighten]
   * [OLKB Planck](https://olkb.com/planck)
     * 格子型配列（指は疲れないで良い）
