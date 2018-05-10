@@ -39,7 +39,7 @@
     * 会議は終わらない
     * 紙大好き（１年分の資料を並べると23区を一周できそう）
     * 効率よく仕事しづらい
-        * ...ぐちやめようね( ͡° ͜ʖ ͡°)k
+    * ...ぐちやめよう o( ͡° ͜ʖ ͡°)k
 @ulend
 
 ---
@@ -48,10 +48,8 @@
 ### 転職理由
 @ul[brighten]
   * 昔からOS周りいじるのが好き（Ubuntu 6あたりからLinuxさわっている)
-  * 2015年にたまたまedXでHarvard UniversityのCS50: Introduction to Computer
-    Scienceに出会う
-  * C, PHP,
-    HTML/CSS/JSで様々な課題をクリアしながら学んでいく(最近は)
+  * 2015年にたまたまedXでHarvard UniversityのCS50: Introduction to Computer Scienceに出会う
+  * C, PHP, HTML/CSS/JSで様々な課題をクリアしながら学んでいく(最近は)
   * 最終プロジェクトとしてAndroidのガススタ検索アプリ作る（APIの制限でStore公開せず）
   * コードを書く仕事したくなった
 @ulend
@@ -95,7 +93,6 @@
 +++
 ### 愛機: Neon Planck
 @div[left-50]
-<br>
 ![Neon Planck](git-pitch-bpstyle92/assets/planck_neon.jpg)
 @divend
 @div[right-50]
@@ -103,10 +100,7 @@
   * [OLKB Planck](https://olkb.com/planck)
     * 格子型配列（指は疲れないで良い）
     * 親指でなんでもできちゃう
-    * PCB、スイッチ（取り寄せ）
-    * キーキャップ：Ali○xpress（中国）
-    * ケース：Custom design (ニュージーランド)
-  * 気に入りのスイッチ： Zealios R4 65g 
+    * ほぼ自作
   * （試したい人はメンション飛ばして）
 @ulend
 @divend
@@ -141,8 +135,7 @@
 ### matsu雑学
 @ul[brighten]
  * 世の中全てを[dracula theme](https://draculatheme.com/)に染めたい
- * heavy
-   metalをこよなく愛しているがコーディングの時だけは[エレクトロニカを聴く](https://www.last.fm/user/anonelbe)
+ * heavy metalをこよなく愛しているがコーディングの時だけは[エレクトロニカを聴く](https://www.last.fm/user/anonelbe)
  * Gamer（主にRPGだけど最近は時間がないよね）
 @ulend
 
@@ -153,5 +146,5 @@
 
 @ul[brighten]
  * 早く実務的な力を身に付けたい
- * 
+ * テストの書き方を覚えたい（夢と魔法の王国~~TDL~~TDD）
 @ulend
