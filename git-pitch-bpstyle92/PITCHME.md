@@ -54,7 +54,7 @@
 ## 自作キーボード
 +++
 ### 愛機: Neon Planck
-![Neon Planck](assets/planck_neon.jpg)
+![Neon Planck](git-pitch-bpstyle92/assets/planck_neon.jpg)
 +++
   * [OLKB Planck](https://olkb.com/planck)
     * 格子型配列（指は疲れないで良い）
@@ -67,19 +67,18 @@
 
 +++
 ### 自家用: Ergodox Infinity
-![Ergodox](assets/ergodox.jpg)
+![Ergodox](git-pitch-bpstyle92/assets/ergodox.jpg)
 
 +++
 ### 分割型
   * Let's Split (別れようぜ)
   * 合同購入企画で日本中の自作キーボードファンに火をつけた
 +++
-![Let's Split](assets/letssplit_mac.jpg)
+![Let's Split](git-pitch-bpstyle92/assets/letssplit_mac.jpg)
 
 
 ---
 ## これからの展望
 +++
 ### これからの展望
-
 
