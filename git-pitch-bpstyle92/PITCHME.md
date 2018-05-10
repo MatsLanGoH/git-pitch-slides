@@ -79,8 +79,10 @@
 ## 自作キーボード
 +++
 ### 愛機: Neon Planck
----?image=git-pitch-bpstyle92/assets/planck_neon.jpg&size=auto 50%&position=bottom
-+++
+@div[left-50]
+---?image=git-pitch-bpstyle92/assets/planck_neon.jpg&size=auto
+@divend
+@div[right-50]
 @ul[brighten]
   * [OLKB Planck](https://olkb.com/planck)
     * 格子型配列（指は疲れないで良い）
@@ -91,6 +93,7 @@
   * 気に入りのスイッチ： Zealios R4 65g 
   * （試したい人はメンション飛ばして）
 @ulend
+@divend
 
 +++
 ### 自家用: Ergodox Infinity
