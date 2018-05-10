@@ -81,7 +81,7 @@
 ### 愛機: Neon Planck
 @div[left-50]
 <br>
-![Neon Planck](git-pitch-bpstyle92/assets/planck_neon.jpg&size=auto)
+![Neon Planck](git-pitch-bpstyle92/assets/planck_neon.jpg)
 @divend
 @div[right-50]
 <br><br><br>
