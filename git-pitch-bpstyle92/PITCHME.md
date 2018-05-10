@@ -11,8 +11,6 @@
  * これからの展望
 ---
 
-## お前誰よ
-+++
 ### お前誰よ
 @ul[brighten]
  * Matthias Lambrecht（matsu）
@@ -23,8 +21,6 @@
  * フリーランスで日独通訳などもやった
 @ulend
 ---
-## 前職の話
-+++
 ### 前職の話
 @ul[brighten]
   * 都内の某女子大で幼稚園の先生
@@ -43,8 +39,6 @@
 @ulend
 
 ---
-## 転職理由
-+++
 ### 転職理由
 @ul[brighten]
   * 昔からOS周りいじるのが好き（Ubuntu 6あたりからLinuxさわっている)
@@ -54,8 +48,6 @@
   * コードを書く仕事したくなった
 @ulend
 ---
-## Pythonとの関わり
-+++
 ### Pythonとの関わり
 
 @ul[brighten]
@@ -81,8 +73,6 @@
 @ulend
 
 ---
-## 趣味
-+++
 ### 趣味
  * 自作キーボード
  * 写真
@@ -123,18 +113,14 @@
 @divend
 
 ---
-## 写真
-+++
 ### 写真
 最近放置気味だけれど[公開アルバム](https://www.flickr.com/people/sandocap/)
 ![Flickr](git-pitch-bpstyle92/assets/flickr_title.png)
 +++
 ### ...むしろ家族写真が__main__に 
-![Kids](git-pitch-bpstyle92/assets/eightbit_.png)
+![Kids](git-pitch-bpstyle92/assets/eightbit_.jpg)
 ---
 
-## matsu雑学
-+++
 ### matsu雑学
 @ul[brighten]
  * 世の中全てを[dracula theme](https://draculatheme.com/)に染めたい
@@ -143,8 +129,6 @@
 @ulend
 
 ---
-## これからの展望
-+++
 ### これからの展望
 
 @ul[brighten]
