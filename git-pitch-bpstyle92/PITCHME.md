@@ -79,7 +79,7 @@
 ## 自作キーボード
 +++
 ### 愛機: Neon Planck
-![Neon Planck](git-pitch-bpstyle92/assets/planck_neon.jpg&size=auto)
+---?image=git-pitch-bpstyle92/assets/planck_neon.jpg&size=auto 50%&position=bottom
 +++
   * [OLKB Planck](https://olkb.com/planck)
     * 格子型配列（指は疲れないで良い）
