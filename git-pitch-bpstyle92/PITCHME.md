@@ -81,6 +81,7 @@
 ### 愛機: Neon Planck
 ---?image=git-pitch-bpstyle92/assets/planck_neon.jpg&size=auto 50%&position=bottom
 +++
+@ul[brighten]
   * [OLKB Planck](https://olkb.com/planck)
     * 格子型配列（指は疲れないで良い）
     * 親指でなんでもできちゃう
@@ -89,6 +90,7 @@
     * ケース：Custom design (ニュージーランド)
   * 気に入りのスイッチ： Zealios R4 65g 
   * （試したい人はメンション飛ばして）
+@ulend
 
 +++
 ### 自家用: Ergodox Infinity
