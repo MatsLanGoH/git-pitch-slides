@@ -126,8 +126,11 @@
 ## 写真
 +++
 ### 写真
-  * 最近放置気味だけれど[公開アルバム](https://www.flickr.com/people/sandocap/)
+最近放置気味だけれど[公開アルバム](https://www.flickr.com/people/sandocap/)
 ![Flickr](git-pitch-bpstyle92/assets/flickr_title.png)
++++
+### ...むしろ家族写真が__main__に 
+![Kids](git-pitch-bpstyle92/assets/eightbit_.png)
 ---
 
 ## matsu雑学
