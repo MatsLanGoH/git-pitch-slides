@@ -110,21 +110,25 @@
 
 +++
 
-## いまこれを作っている
-
-![Elm Niconico](elm-jp-summer2019/assets/elm_niconico_app_1.png)
+@snap[west span-40 text-center]
 
 ### Elm niconico
 
+![Elm Niconico](elm-jp-summer2019/assets/elm_niconico_app_1.png)
+
+@snapend
+
+@snap[east span-40 text-center]
+
 @ul[brighten]
 
-<!-- TODO: スクショ -->
-* 1
-* 2
-* 3
+* ログイン機能
+* Mood + メッセージを登録できる
+* 過去１ヶ月分の気分確認できる
 
 @ulend
 
+@snapend
 +++
 
 ### 作り方は簡単
