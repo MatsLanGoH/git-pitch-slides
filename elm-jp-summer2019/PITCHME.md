@@ -3,9 +3,9 @@
 
 2019-08-25
 
-Elm Japan 2019 Meetup in Summer(https://elm-jp.connpass.com/event/140431/)
+[Elm Japan 2019 Meetup in Summer](https://elm-jp.connpass.com/event/140431/)
 
-@fab[twitter] [@matspod](https://twitter.com/matspod)
+@fab[twitter][matspod](https://twitter.com/matspod)
 
 ---
 
@@ -338,7 +338,7 @@ import Svg.Attributes exposing (viewBox)
 
 plz follow:
 
-@fab[twitter] [@matspod](https://twitter.com/matspod)
+@fab[twitter] [matspod](https://twitter.com/matspod)
 
 @fab[github] [MatsLanGoH](https://github.com/MatsLanGoH)
 
