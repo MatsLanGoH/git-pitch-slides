@@ -110,7 +110,7 @@
 
 +++
 
-### [WIP]
+### MVP
 
 @snap[west]
 
@@ -123,12 +123,13 @@
 @ul[brighten]
 
 * ログイン機能
-* Mood + メッセージを登録できる
-* 過去１ヶ月分の気分確認できる
+* Mood + メッセージ登録
+* 早見表
 
 @ulend
 
 @snapend
+
 +++
 
 ### 作り方は簡単
@@ -149,17 +150,105 @@
 @ul[brighten]
 
 * [Django Rest Framework](https://www.django-rest-framework.org/)
-* Djangoベースで簡単にRESTful APIが作れる。
+* Djangoベースで簡単にRESTful APIが作れる
+* [Netlify](https://netlify.com) Lambda + DB でもいけそう
 
 @ulend
 
 +++
 
-### 簡単じゃなかった
+### kwsk: Client
+
+@ul[brighten]
+
+* [create-elm-app](https://github.com/halfzebra/create-elm-app)
+* ダッシュボードは `Svg` モジール活用
+* CSS: とりあえず [tailwind.css](https://tailwindcss.com) で組み立てることに
+
+@ulend
 
 +++
 
-### ところで、DRF is 何？
+### kwsk: deploy
+
+@ul[brighten]
+
+* localhost最強説 (...)
+* Client: Netlify / API: とりあえずheroku
+* 年内デプロイしたい
+
+@ulend
+
+---
+
+## 苦戦したこと
+
++++
+
+### ダッシュボードむずい
+
+@ul[brighten]
+
+* その日の最新の登録だけ表示する
+* 登録がなければUnsetと表示する
+* 個人の時間、朝４〜６時だけなので、UTCで取得していることに気づかず
+
+@ulend
+...って、Elmの話じゃないね。
+
++++
+
+### compilerがロジックミスから守ってくれない
+
+@ul[brighten]
+
+* ログアウトしてもまだダッシュボードが表示されとる？
+* トークンを破棄したものの、MoodListそのまま残しているやん
+* Modelを初期化しよう!
+
+@ulend
+
++++
+
+### compilerがすべてのタイプミスから守ってくれない
+
+これ正しい↓
+```elm
+
+import Html.Attributes exposing (class)
+import Svg exposing (svg, rect)
+import Svg.Attributes exposing (viewBox)
+
+    svg
+        [ viewBox "0 0 36 36"
+        , Svg.Attributes.class "mood_block" -- Html.Attributes.class breaks things here!
+        ]
+        [ rect [ x "4" , y "4"] []
+```
+
+@ul[brighten]
+
+* ログアウトしてもまだダッシュボードが表示されとる？
+* トークンを破棄したものの、MoodListそのまま残しているやん
+* Modelを初期化しよう!
+
+@ulend
+
++++
+
+### トークン認証、地味にしんどい
+
+@ul[brighten]
+
+* `Http.request` が OKにならない
+  * まずCORS疑おう...
+  * NetworkErrorって何？
+  * APIのログも見れたから解決できたが...
+
+@ulend
+
++++
+
 
 
 ---
