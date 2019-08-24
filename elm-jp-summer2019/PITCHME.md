@@ -131,14 +131,18 @@
 
 ### 作り方は簡単
 
+@ul[brighten]
+
 * APIを用意する
 * Clientをチャチャっと作りあげる
 * デプロイする
 * うぇ〜い
 
+@ulend
+
 +++
 
-### ところで、DRF is 何？
+### kwsk: API
 
 @ul[brighten]
 
@@ -146,6 +150,15 @@
 * Djangoベースで簡単にRESTful APIが作れる。
 
 @ulend
+
++++
+
+### 簡単じゃなかった
+
++++
+
+### ところで、DRF is 何？
+
 
 ---
 
@@ -160,6 +173,18 @@
 @ulend
 
 ---
+
+---
+
+### 反省点
+
+@ul[brighten]
+
+*
+*
+*
+
+@ulend
 
 ---
 
