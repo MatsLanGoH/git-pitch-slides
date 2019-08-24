@@ -116,7 +116,7 @@
 
 @snapend
 
-@snap[east span-40 text-center]
+@snap[east ]
 
 @ul[brighten]
 
