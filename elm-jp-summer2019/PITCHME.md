@@ -5,31 +5,20 @@
 
 ---
 ## CONTENTS
-
-@snap[west]
-# Hello
-@snapend
-
-@snap[east fragment]
-# World!
-@snapend
+- お前誰よ
 ---
-
----
-
-
----
-
-<h2 class="fragment">Hello, World!</h2>
-
----
-
-@ul
-
-- Plain text list item @note[Cool! Fragment specific speaker notes :)]
-- Rich **markdown** list *item*
-- Link [within](https://gitpitch.com) list item @note[Fragment specific speaker notes are optional.]
-
+### お前誰よ
+@ul[brighten]
+ * Matthias Lambrecht（matsu）
+ * ドイツ生まれ(日本在住11年くらい)
+ * [BeProud](https://www.beproud.jp)でフルスタックエンジニア
+ * 日頃Python書いている (Django案件が多い)
+ * [(We're hiring)](https://www.beproud.jp/careers/)
 @ulend
 ---
-
+@ul
+-
+-
+-
+@ulend
+---
