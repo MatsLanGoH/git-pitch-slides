@@ -110,8 +110,6 @@
 
 +++
 
-### MVP
-
 @snap[west]
 
 ![Elm Niconico](elm-jp-summer2019/assets/elm_niconico_app_1.png)
@@ -121,6 +119,8 @@
 @snap[east span-50 text-center]
 
 @ul[brighten]
+
+### MVP
 
 * ログイン機能
 * Mood + メッセージ登録
@@ -193,9 +193,10 @@
 
 +++
 
+### コード見たい方は↓へ
+
 * @fab[github] [client](https://github.com/MatsLanGoH/elm-niconico)
 * @fab[github] [API](https://github.com/MatsLanGoH/dj-niconico)
-*
 
 ---
 
@@ -204,6 +205,8 @@
 +++
 
 ### ダッシュボードむずい
+
+@snap[west span-60]
 
 @ul[brighten]
 
@@ -214,7 +217,13 @@
 * ...って、Elmの話じゃないね。
 
 @ulend
+@snapend
 
+@snap[east]
+
+![Elm Niconico](elm-jp-summer2019/assets/elm_niconico_app_1.png)
+
+@snapend
 +++
 
 #### compilerがロジックミスから守ってくれない
@@ -313,9 +322,9 @@ import Svg.Attributes exposing (viewBox)
 @ulend
 +++
 
-@quote[I was coding the entire time\n all the code worked on the first try](Richard Feldman)
+@quote[I was coding the entire time and all the code worked on the first try](Richard Feldman)
 
-[Building UIs in the Dark](https://www.youtube.com/watch?v=sKxEwjKQ5zg)
+@fab[youtube][Building UIs in the Dark](https://www.youtube.com/watch?v=sKxEwjKQ5zg)
 
 +++
 
