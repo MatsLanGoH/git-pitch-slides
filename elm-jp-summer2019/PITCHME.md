@@ -269,7 +269,7 @@ import Svg.Attributes exposing (viewBox)
 
 +++
 
----?image=elm-jp-summer2019/assets/svg_classes.png&size=auto 90%
+![infinite loop](elm-jp-summer2019/assets/svg_classes.png)
 
 +++
 
