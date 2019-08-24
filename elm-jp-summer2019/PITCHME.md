@@ -52,7 +52,8 @@
 
 @ul[brighten]
 
-* :crab: Rust軽く触ってみたらElmの存在を知った。
+* @emoji[heart_eyes]
+* Rust軽く触ってみたらElmの存在を知った。
 * 2019年に入ってから (0.19)
 * 初FP言語。気がつけばはまっていた。
 
