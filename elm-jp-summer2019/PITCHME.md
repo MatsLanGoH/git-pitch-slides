@@ -13,7 +13,7 @@
 
 * お前誰よ
 * Elmの覚え方
-* 何を作っている？
+* いま何を作っている？
 
 @ulend
 
@@ -78,8 +78,9 @@
 @ul[brighten]
 
 * [天気予報アプリ](https://elm-weather-app.netlify.com/)
+* [openweathermap.org](https://openweathermap.org)のAPI利用
 * ある意味定番的エキササイズ
-* Decoder, List処理, Httpなどのいい練習
+* Decoder, List/map処理, Httpなどのいい練習
 
 @ulend
 
@@ -88,6 +89,36 @@
 ...でもなんだか物足りない
 
 ---
+
+# いま何を作っている?
+
++++
+
+## 以下を求む
+
+@ul[brighten]
+
+* 日常的に使いたいもの → モチベーション
+* APIも含めて何かを作る → 技術的挑戦
+
+@ulend
+
++++
+
+## いまこれを作っている
+
+![Elm Niconico](elm-jp-summer2019/assets/elm_niconico_app_1.jpg)
+
+@ul[brighten]
+
+<!-- TODO: スクショ -->
+* 1
+* 2
+* 3
+
+@ulend
+
++++
 
 ### ところで、DRF is 何？
 
@@ -100,6 +131,20 @@
 
 ---
 
+## 開発してみてわかったこと
+
+@ul[brighten]
+
+* [Insomnia REST Client](https://insomnia.rest)がめちゃ便利。
+*
+*
+
+@ulend
+
+---
+
+---
+
 @ul[brighten]
 
 *
@@ -107,5 +152,6 @@
 *
 
 @ulend
+
 ---
 
