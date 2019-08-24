@@ -110,13 +110,15 @@
 
 +++
 
-@snap[west ]
+### [WIP]
+
+@snap[west]
 
 ![Elm Niconico](elm-jp-summer2019/assets/elm_niconico_app_1.png)
 
 @snapend
 
-@snap[east ]
+@snap[east span-50 text-center]
 
 @ul[brighten]
 
