@@ -191,14 +191,15 @@
 
 * その日の最新の登録だけ表示する
 * 登録がなければUnsetと表示する
-* 個人の時間、朝４〜６時だけなので、UTCで取得していることに気づかず
+* 個人の時間、朝４〜６時だけなので
+* UTCで取得していることに気づかず
+* ...って、Elmの話じゃないね。
 
 @ulend
-...って、Elmの話じゃないね。
 
 +++
 
-### compilerがロジックミスから守ってくれない
+#### compilerがロジックミスから守ってくれない
 
 @ul[brighten]
 
@@ -221,18 +222,32 @@ import Svg.Attributes exposing (viewBox)
 
     svg
         [ viewBox "0 0 36 36"
-        , Svg.Attributes.class "mood_block" -- Html.Attributes.class breaks things here!
-        ]
+        , Svg.Attributes.class "mood_block"]
         [ rect [ x "4" , y "4"] []
 ```
 
-@ul[brighten]
++++
 
-* ログアウトしてもまだダッシュボードが表示されとる？
-* トークンを破棄したものの、MoodListそのまま残しているやん
-* Modelを初期化しよう!
+### compilerがすべてのタイプミスから守ってくれない
 
-@ulend
+これやったら死ぬ↓
+```elm
+
+import Html.Attributes exposing (class)
+import Svg exposing (svg, rect)
+import Svg.Attributes exposing (viewBox)
+
+    svg
+        [ viewBox "0 0 36 36"
+        , class "mood_block"] -- Html.Attributes.class
+        [ rect [ x "4" , y "4"] []
+```
+
++++
+
+### compilerがすべてのタイプミスから守ってくれない
+
+![infinite loop](elm-jp-summer2019/assets/svg_classes.png)
 
 +++
 
@@ -247,11 +262,17 @@ import Svg.Attributes exposing (viewBox)
 
 @ulend
 
+---
+
+## Elm で開発してよかったこと
+
 +++
 
+@ul[brighten]
 
+@ulend
 
----
++++
 
 ## 開発してみてわかったこと
 
