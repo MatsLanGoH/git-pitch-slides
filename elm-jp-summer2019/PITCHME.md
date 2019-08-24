@@ -204,7 +204,7 @@
 
 +++
 
-@snap[west span-60]
+@snap[west]
 
 ### ダッシュボードむずい
 
@@ -220,7 +220,7 @@
 
 @snapend
 
-@snap[east]
+@snap[east span-30]
 
 ![Elm Niconico](elm-jp-summer2019/assets/elm_niconico_app_1.png)
 
