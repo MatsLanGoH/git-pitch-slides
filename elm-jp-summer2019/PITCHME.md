@@ -269,9 +269,7 @@ import Svg.Attributes exposing (viewBox)
 
 +++
 
-### compilerがすべてのタイプミスから守ってくれない
-
-![infinite loop](elm-jp-summer2019/assets/svg_classes.png)
+---?image=elm-jp-summer2019/assets/svg_classes.png&size=auto 90%
 
 +++
 
