@@ -26,8 +26,20 @@
 * Matthias Lambrecht（matsu）
 * ドイツ生まれ(日本在住11年くらい)
 * 3児の父（5y/2y/0y）
+* キーボード作りが趣味 （最近凍結気味）
+
+@ulend
+
++++
+
+### 普段は何やっているの？
+
+@ul[brighten]
+
 * [BeProud](https://www.beproud.jp)でフルスタックエンジニア
-* 日頃Python書いている (Django案件が多い)
+  * 日頃Python書いている (Django案件が多い)
+  * Pythonメインで受託開発など
+  * [Connpass](https://connpass.com), [PyQ](https://pyq.jp)
 * [(We're hiring)](https://www.beproud.jp/careers/)
 
 @ulend
