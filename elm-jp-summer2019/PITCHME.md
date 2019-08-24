@@ -193,7 +193,8 @@
 
 +++
 
-* Client: []
+* @fab[github] [client](https://github.com/MatsLanGoH/elm-niconico)
+* @fab[github] [API](https://github.com/MatsLanGoH/dj-niconico)
 *
 
 ---
