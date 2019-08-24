@@ -292,7 +292,7 @@ import Svg.Attributes exposing (viewBox)
 
 * JSONなんだかめんどい。（自動化したい）
 * ドキュメンテーション物足りない
-* モジュール分割（まだ気にしないでいい程度だけど）
+* モジュール分割（まだ気にしないけど）
 * `Time` やたらしんどい。
 
 @ulend
@@ -313,7 +313,8 @@ import Svg.Attributes exposing (viewBox)
 @ulend
 +++
 
-@quote[I was coding the entire time, all the code worked on the first try](Richard Feldman)
+@quote[I was coding the entire time
+all the code worked on the first try](Richard Feldman)
 * Feldmanさん [Building UIs in the Dark](https://www.youtube.com/watch?v=sKxEwjKQ5zg)
 
 +++
