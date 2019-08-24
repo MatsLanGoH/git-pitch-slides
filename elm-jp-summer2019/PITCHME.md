@@ -112,8 +112,8 @@
 
 ## いまこれを作っている
 
----?image=assets/elm_niconico_app_1.png&position=right
-![Elm Niconico](assets/elm_niconico_app_1.png)
+---?image=elm-jp-summer2019/assets/elm_niconico_app_1.png&position=right
+![Elm Niconico](elm-jp-summer2019/assets/elm_niconico_app_1.png)
 
 ### Elm niconico
 
