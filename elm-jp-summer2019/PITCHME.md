@@ -309,7 +309,7 @@ import Svg.Attributes exposing (viewBox)
 
 ---
 
-## Elm で開発してよかったこと
+## Elm でよかったこと
 
 +++
 
@@ -319,8 +319,10 @@ import Svg.Attributes exposing (viewBox)
 * 限られた時間でも着々進められる
 * リファクタリング怖くない
 * いちいちブラウザーみなくてもいいんだ。
+* FP脳みそができつつある
 
 @ulend
+
 +++
 
 @quote[I was coding the entire time and all the code worked on the first try](Richard Feldman)
@@ -329,39 +331,11 @@ import Svg.Attributes exposing (viewBox)
 
 +++
 
-## 開発してみてわかったこと
+### THANK YOU!
 
-@ul[brighten]
+plz follow:
 
-* [Insomnia REST Client](https://insomnia.rest)がめちゃ便利。
-*
-*
-
-@ulend
+@fab[twitter] [@matspod](https://twitter.com/matspod)
+@fab[github] [MatsLanGoH](https://github.com/MatsLanGoH)
 
 ---
-
----
-
-### 反省点
-
-@ul[brighten]
-
-*
-*
-*
-
-@ulend
-
----
-
-@ul[brighten]
-
-*
-*
-*
-
-@ulend
-
----
-
