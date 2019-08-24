@@ -110,9 +110,7 @@
 
 +++
 
-@snap[west span-40 text-center]
-
-### Elm niconico
+@snap[west ]
 
 ![Elm Niconico](elm-jp-summer2019/assets/elm_niconico_app_1.png)
 
