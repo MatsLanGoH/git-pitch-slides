@@ -6,17 +6,6 @@
 ---
 ## CONTENTS
 
-@css[text-blue fragment](Hello, World!)
-
-@img[fragment](assets/img/pic.png)
-
-@box[text-orange span-80 fragment](Mars Attacks # Greetings earthlings. We come in peace!)
-
-
-@fa[smile-o fa-4x fa-spin fragment]
----
-
-
 @snap[west]
 # Hello
 @snapend
@@ -25,26 +14,6 @@
 # World!
 @snapend
 ---
----
-
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>25</td>
-  </tr>
-  <tr class="fragment">
-    <td>Eve</td>
-    <td>94</td>
-  </tr>
-  <tr class="fragment">
-    <td>John</td>
-    <td>43</td>
-  </tr>
-</table>
 
 ---
 
@@ -53,4 +22,14 @@
 
 <h2 class="fragment">Hello, World!</h2>
 
+---
+
+@ul
+
+- Plain text list item @note[Cool! Fragment specific speaker notes :)]
+- Rich **markdown** list *item*
+- Link [within](https://gitpitch.com) list item @note[Fragment specific speaker notes are optional.]
+
+@ulend
+---
 
