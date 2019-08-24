@@ -112,9 +112,8 @@
 
 ## いまこれを作っている
 
+---?image=assets/elm_niconico_app_1.png&position=right
 ![Elm Niconico](assets/elm_niconico_app_1.png)
-
-+++
 
 ### Elm niconico
 
