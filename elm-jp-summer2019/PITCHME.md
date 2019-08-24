@@ -179,6 +179,23 @@
 
 @ulend
 
++++
+
+### これから
+
+@ul[brighten]
+
+* 認証周り整理する
+* 機能追加: チーム管理
+* 年末までに公開する
+
+@ulend
+
++++
+
+* Client: []
+*
+
 ---
 
 ## 苦戦したこと
@@ -214,8 +231,8 @@
 ### compilerがすべてのタイプミスから守ってくれない
 
 これ正しい↓
-```elm
 
+```elm
 import Html.Attributes exposing (class)
 import Svg exposing (svg, rect)
 import Svg.Attributes exposing (viewBox)
@@ -226,13 +243,16 @@ import Svg.Attributes exposing (viewBox)
         [ rect [ x "4" , y "4"] []
 ```
 
+@[3]
+@[7]
+
 +++
 
 ### compilerがすべてのタイプミスから守ってくれない
 
 これやったら死ぬ↓
-```elm
 
+```elm
 import Html.Attributes exposing (class)
 import Svg exposing (svg, rect)
 import Svg.Attributes exposing (viewBox)
@@ -242,6 +262,9 @@ import Svg.Attributes exposing (viewBox)
         , class "mood_block"] -- Html.Attributes.class
         [ rect [ x "4" , y "4"] []
 ```
+
+@[1]
+@[7]
 
 +++
 
@@ -262,6 +285,19 @@ import Svg.Attributes exposing (viewBox)
 
 @ulend
 
++++
+
+### 地味に困っていること
+
+@ul[brighten]
+
+* JSONなんだかめんどい。（自動化したい）
+* ドキュメンテーション物足りない
+* モジュール分割（まだ気にしないでいい程度だけど）
+* `Time` やたらしんどい。
+
+@ulend
+
 ---
 
 ## Elm で開発してよかったこと
@@ -270,7 +306,16 @@ import Svg.Attributes exposing (viewBox)
 
 @ul[brighten]
 
+* TEAが楽しい
+* 限られた時間でも着々進められる
+* リファクタリング怖くない
+* いちいちブラウザーみなくてもいいんだ。
+
 @ulend
++++
+
+@quote[I was coding the entire time, all the code worked on the first try](Richard Feldman)
+* Feldmanさん [Building UIs in the Dark](https://www.youtube.com/watch?v=sKxEwjKQ5zg)
 
 +++
 
