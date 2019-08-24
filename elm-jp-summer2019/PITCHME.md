@@ -204,9 +204,9 @@
 
 +++
 
-### ダッシュボードむずい
-
 @snap[west span-60]
+
+### ダッシュボードむずい
 
 @ul[brighten]
 
@@ -217,6 +217,7 @@
 * ...って、Elmの話じゃないね。
 
 @ulend
+
 @snapend
 
 @snap[east]
