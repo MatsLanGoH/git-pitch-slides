@@ -313,9 +313,9 @@ import Svg.Attributes exposing (viewBox)
 @ulend
 +++
 
-@quote[I was coding the entire time
-all the code worked on the first try](Richard Feldman)
-* Feldmanさん [Building UIs in the Dark](https://www.youtube.com/watch?v=sKxEwjKQ5zg)
+@quote[I was coding the entire time\n all the code worked on the first try](Richard Feldman)
+
+[Building UIs in the Dark](https://www.youtube.com/watch?v=sKxEwjKQ5zg)
 
 +++
 
