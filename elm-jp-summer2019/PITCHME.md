@@ -19,31 +19,38 @@
 ---
 ### Elmはいつから？
 
+@ul
 * 2019年に入ってから
 * Rust軽く触ってみたらElmの存在を知った。
 * 気がつけばハマった
-
+@ulend
 +++
 
 ### Elmをどうやって覚えている？
 
+@ul
 * 公式ガイドの課題説いてみたり
 * [exercism.io](https://exercism.io/tracks/elm) Elm Track
 * Brian P. Hogan氏 [Exercises for Programmers](https://pragprog.com/book/bhwb/exercises-for-programmers) 
+@ulend
 
 +++
 
 ### 何か作った？
 
+@ul
 * [天気予報アプリ](https://elm-weather-app.netlify.com/)
 * ある意味定番的エキササイズ
 * Decoder, List処理, Httpなどのいい練習
+@ulend
 
 ---
 ### ところで、DRF is 何？
 
+@ul
 * [Django Rest Framework](https://www.django-rest-framework.org/)
 * Djangoフレームワーク
+@ulend
 
 ---
 
