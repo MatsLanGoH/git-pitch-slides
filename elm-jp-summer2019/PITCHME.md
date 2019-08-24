@@ -106,13 +106,13 @@
 
 +++
 
-じゃ、ニコカレで行こう！
+## よし、ニコカレを作ろう！
 
 +++
 
 ## いまこれを作っている
 
-![Elm Niconico](assets/elm_niconico_app_1.jpg)
+![Elm Niconico](assets/elm_niconico_app_1.png)
 
 +++
 
