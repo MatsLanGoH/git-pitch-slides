@@ -4,6 +4,8 @@
 
 [BPLL #44](https://bpstudy.connpass.com/event/171284/)
 
+![Elm](bpll-elm-frontend/assets/elm-logo.svg)
+
 @fab[twitter][matspod](https://twitter.com/matspod)
 
 ---
@@ -208,7 +210,7 @@
 - [The Elm Architecture](https://guide.elm-lang.jp/architecture/) でコードが追いやすい
 - 実用上ランダムエラーおきない
 - null, undefined ありえない
-- コンパイラが人にやさしい
+- コンパイラが人にやさしい (学習コストがやすくなる)
 - リファクタリング怖くない
 
 @ulend
@@ -219,7 +221,15 @@
 
 @fab[youtube][building uis in the dark](https://www.youtube.com/watch?v=sKxEwjKQ5zg)
 
-+++
+---
+
+## Elm ちょっと困ったとこ
+
+- JS をがちゃがちゃやるには限界がある([Ports](https://guide.elm-lang.jp/interop/ports.html)
+  )
+- Time を使った処理がめんどい
+
+---
 
 ## おまけ: 楽しいライブラリたち
 
@@ -232,6 +242,11 @@
 以上 DESU
 
 +++
+
+## リンク集
+
+- [Elm Guide](https://guide.elm-lang.org)
+- [Elm Guide 日本語版](https://guide.elm-lang.jp/)
 
 ### THANK YOU!
 
