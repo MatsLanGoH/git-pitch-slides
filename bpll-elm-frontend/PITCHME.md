@@ -43,9 +43,14 @@
 
 +++
 
-### tl;dr
+### naruhodo
 
-@quote[Elm は JavaScript にコンパイルできる関数型プログラミング言語です]
+- JS にコンパイルできる関数型プログラミング言語
+- 主にフロントエンドやアプリに向いている
+
++++
+
+### どんな感じ?
 
 ---
 
@@ -201,7 +206,9 @@
 @ul[brighten]
 
 - [The Elm Architecture](https://guide.elm-lang.jp/architecture/) でコードが追いやすい
-- コンパイラが人にやさしい (Demo するぞ)
+- 実用上ランダムエラーおきない
+- null, undefined ありえない
+- コンパイラが人にやさしい
 - リファクタリング怖くない
 
 @ulend
@@ -217,6 +224,12 @@
 ## おまけ: 楽しいライブラリたち
 
 #### [Awesome Elm](https://github.com/sporto/awesome-elm)
+
++++
+
+## おまけ 2: 勉強会やりたい
+
+以上 DESU
 
 +++
 
