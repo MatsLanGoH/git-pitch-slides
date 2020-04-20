@@ -8,15 +8,16 @@
 
 ---
 
-## CONTENTS
-
 @snap[west]
 
 ![Elm](bpll-elm-frontend/assets/elm-logo.png)
 
 @snapend
 
-@snap[east]
+@snap[east span-50 text-center]
+
+## CONTENTS
+
 @ul[brighten]
 
 - Elm って何?
