@@ -12,17 +12,20 @@
 
 @ul[brighten]
 
+- Elm って何?
 - Elm の覚え方
-- いま何を作っている？
+- いま何を作っている?
 - 苦戦とよかったこと
 
 @ulend
 
 ---
 
-@ul[brighten]
+### Elm って何?
 
-### Elm の覚え方
++++
+
+### 出会ったきっかけ
 
 @ul[brighten]
 
@@ -33,6 +36,18 @@
 @ulend
 
 +++
+
+### Elm is コレ
+
+@quote[Elm is a functional language that compiles to JavaScript. It helps you make websites and web apps. It has a strong emphasis on simplicity and quality tooling.](Elm Guide)
+
++++
+
+### tl;dr
+
+@quote[Elm は JavaScript にコンパイルできる関数型プログラミング言語です]
+
+---
 
 ### Elm をどうやって覚えている?
 
@@ -107,50 +122,13 @@
 
 +++
 
-### 作り方は簡単
-
-@ul[brighten]
-
-- API を用意する
-- Client をチャチャっと作りあげる
-- デプロイする
-- うぇ〜い
-
-@ulend
-
-+++
-
-### kwsk: API
+### kwsk: 構築
 
 @ul[brighten]
 
 - [Django Rest Framework](https://www.django-rest-framework.org/)
-- Django ベースで簡単に RESTful API が作れる
-- [Netlify](https://netlify.com) Lambda + DB でもいけそう
-
-@ulend
-
-+++
-
-### kwsk: Client
-
-@ul[brighten]
-
 - [create-elm-app](https://github.com/halfzebra/create-elm-app)
-- ダッシュボードは `Svg` モジール活用
 - CSS: とりあえず [tailwind.css](https://tailwindcss.com) で組み立てることに
-
-@ulend
-
-+++
-
-### kwsk: deploy
-
-@ul[brighten]
-
-- localhost 最強説 (...)
-- Client: Netlify / API: とりあえず heroku
-- 2020 年中晒したい（けれど家庭保育で時間 gagaga
 
 @ulend
 
@@ -203,68 +181,11 @@
 
 +++
 
-### compiler がすべてのタイプミスから守ってくれない
-
-これ正しい ↓
-
-```elm
-import Html.Attributes exposing (class)
-import Svg exposing (svg, rect)
-import Svg.Attributes exposing (viewBox)
-
-    svg
-        [ viewBox "0 0 36 36"
-        , Svg.Attributes.class "mood_block"]
-        [ rect [ x "4" , y "4"] []
-```
-
-@[3]
-@[7]
-
-+++
-
-### compiler がすべてのタイプミスから守ってくれない
-
-これやったら死ぬ ↓
-
-```elm
-import Html.Attributes exposing (class)
-import Svg exposing (svg, rect)
-import Svg.Attributes exposing (viewBox)
-
-    svg
-        [ viewBox "0 0 36 36"
-        , class "mood_block"] -- Html.Attributes.class
-        [ rect [ x "4" , y "4"] []
-```
-
-@[1]
-@[7]
-
-+++
-
-![infinite loop](elm-jp-summer2019/assets/svg_classes.png)
-
-+++
-
-### トークン認証、地味にしんどい
-
-@ul[brighten]
-
-- `Http.request` が OK にならない
-  - まず CORS 疑おう...
-  - NetworkError って何？
-  - API のログも見れたから解決できたが...
-
-@ulend
-
-+++
-
 ### 地味に困っていること
 
 @ul[brighten]
 
-- JSON なんだかめんどい。（自動化したい）
+- 関数型慣れる必要ある (for loop ほしい)
 - ドキュメンテーション物足りない
 - モジュール分割（まだ気にしないけど）
 - `Time` やたらしんどい。
@@ -279,11 +200,9 @@ import Svg.Attributes exposing (viewBox)
 
 @ul[brighten]
 
-- TEA が楽しい
-- 限られた時間でも着々進められる
+- [The Elm Architecture](https://guide.elm-lang.jp/architecture/) でコードが追いやすい
+- コンパイラが人にやさしい (Demo するぞ)
 - リファクタリング怖くない
-- いちいちブラウザーみなくてもいいんだ。
-- FP 脳みそができつつある
 
 @ulend
 
