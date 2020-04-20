@@ -1,8 +1,8 @@
-## Elm と DRF でニコカレを作ってみた話
+## Elm でフロントエンドを楽しむ
 
-2019-08-25
+2020-04-21
 
-[Elm Japan 2019 Meetup in Summer](https://elm-jp.connpass.com/event/140431/)
+[BPLL #44](https://bpstudy.connpass.com/event/171284/)
 
 @fab[twitter][matspod](https://twitter.com/matspod)
 
@@ -12,37 +12,9 @@
 
 @ul[brighten]
 
-- お前誰よ
 - Elm の覚え方
 - いま何を作っている？
 - 苦戦とよかったこと
-
-@ulend
-
----
-
-### お前誰よ
-
-@ul[brighten]
-
-- Matthias Lambrecht（matsu）
-- ドイツ生まれ(日本在住 11 年くらい)
-- 3 児の父（5y/2y/0y）
-- キーボード作りが趣味 （最近凍結気味）
-
-@ulend
-
-+++
-
-### 普段は何やっているの？
-
-@ul[brighten]
-
-- [BeProud](https://www.beproud.jp)でフルスタックエンジニア
-  - 日頃 Python 書いている (Django 案件が多い)
-  - Python メインで受託開発など
-  - [Connpass](https://connpass.com), [PyQ](https://pyq.jp)
-- [(We're hiring)](https://www.beproud.jp/careers/)
 
 @ulend
 
@@ -55,17 +27,18 @@
 @ul[brighten]
 
 - Rust 軽く触ってみたら Elm の存在を知った。
-- 2019 年に入ってから (0.19)
+- 2019 年に入ってから (Elm 0.19)
 - 初 FP 言語。気がつけばはまっていた。
 
 @ulend
+
 +++
 
 ### Elm をどうやって覚えている?
 
 @ul[brighten]
 
-- [公式ガイド](htts://guide.elm-lang.org/)の課題説いてみたり
+- [An Introduction to Elm](https://guide.elm-lang.org/)
 - Brian P. Hogan 氏 [Exercises for Programmers](https://pragprog.com/book/bhwb/exercises-for-programmers)
   - ↑ あるあるエキササイズ。新しい言語を覚える時に便利。
 - [exercism.io](https://exercism.io/tracks/elm) Elm Track
@@ -114,7 +87,7 @@
 
 @snap[west]
 
-![Elm Niconico](elm-jp-summer2019/assets/elm_niconico_app_1.png)
+![Elm Niconico](../elm-jp-summer2019/assets/elm_niconico_app_1.png)
 
 @snapend
 
@@ -177,19 +150,7 @@
 
 - localhost 最強説 (...)
 - Client: Netlify / API: とりあえず heroku
-- 年内デプロイしたい
-
-@ulend
-
-+++
-
-### これから
-
-@ul[brighten]
-
-- 認証周り整理する
-- 機能追加: チーム管理
-- 年末までに公開する
+- 2020 年中晒したい（けれど家庭保育で時間 gagaga
 
 @ulend
 
@@ -199,6 +160,7 @@
 
 - @fab[github][client](https://github.com/MatsLanGoH/elm-niconico)
 - @fab[github][api](https://github.com/MatsLanGoH/dj-niconico)
+  (だいぶ放置している)
 
 ---
 
@@ -311,7 +273,7 @@ import Svg.Attributes exposing (viewBox)
 
 ---
 
-## Elm でよかったこと
+## Elm のよいこと
 
 +++
 
@@ -330,6 +292,12 @@ import Svg.Attributes exposing (viewBox)
 @quote[I was coding the entire time and all the code worked on the first try](Richard Feldman)
 
 @fab[youtube][building uis in the dark](https://www.youtube.com/watch?v=sKxEwjKQ5zg)
+
++++
+
+## おまけ: 楽しいライブラリたち
+
+#### [Awesome Elm](https://github.com/sporto/awesome-elm)
 
 +++
 

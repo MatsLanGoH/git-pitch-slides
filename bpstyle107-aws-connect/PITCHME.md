@@ -1,4 +1,3 @@
-
 ## Amazon Connect を完全に理解した話
 
 2019-10-03
@@ -13,12 +12,12 @@
 
 @ul[brighten]
 
-* Amazon Connect is 何?
-* Connect: できること
-* Connect: できないこと
-* これどうかな...編
-* インターフェースデザインの話
-* ユーズケース紹介
+- Amazon Connect is 何?
+- Connect: できること
+- Connect: できないこと
+- これどうかな...編
+- インターフェースデザインの話
+- ユーズケース紹介
 
 @ulend
 
@@ -28,10 +27,10 @@
 
 @ul[brighten]
 
-* AWS サービス
-* コールセンターの作成ツール
-* ボタン入力
-* 音声認識 (Polly, Lex)
+- AWS サービス
+- コールセンターの作成ツール
+- ボタン入力
+- 音声認識 (Polly, Lex)
 
 @ulend
 
@@ -41,9 +40,9 @@
 
 @ul[brighten]
 
-* 音声、ボタン入力で会話フローを形成する
-* DynamoDB, S3 などAWSサービスと連携し情報取り出す
-* Lambdaで外部サービス連携
+- 音声、ボタン入力で会話フローを形成する
+- DynamoDB, S3 など AWS サービスと連携し情報取り出す
+- Lambda で外部サービス連携
 
 @ulend
 
@@ -53,9 +52,9 @@
 
 @ul[brighten]
 
-* ニホンゴ（※）
-* そもそも英語以外はよわよわ
-* フリーダイヤル（※）
+- ニホンゴ（※）
+- そもそも英語以外はよわよわ
+- フリーダイヤル（※）
 
 @ulend
 
@@ -65,24 +64,23 @@
 
 @ul[brighten]
 
-* フローエディタはベータ版（な感じ）
-* プロジェクト間の情報移行がしづらい
-* Lexよ。。
-* 日本語分割...
+- フローエディタはベータ版（な感じ）
+- プロジェクト間の情報移行がしづらい
+- Lex よ。。
+- 日本語分割...
 
 @ulend
 
 +++
 
-### Lexよ。。
-
+### Lex よ。。
 
 @ul[brighten]
 
-* [AWS Lex](https://aws.amazon.com/jp/lex/) 
-* 音声ボット
-* N.Virginia州限定
-* 現時点、英語しかわからない
+- [AWS Lex](https://aws.amazon.com/jp/lex/)
+- 音声ボット
+- N.Virginia 州限定
+- 現時点、英語しかわからない
 
 @ulend
 
@@ -90,11 +88,10 @@
 
 ### 日本語の分割、難しい
 
-
 ```html
 <speak>
-こんにちは。機器故障のご連絡は
-<break time="0.1s\"/>１<break time=\"0.2s\"/> を入力してください。
+  こんにちは。機器故障のご連絡は
+  <break time="0.1s\" />１<break time=\"0.2s\"/> を入力してください。
 </speak>
 ```
 
@@ -108,9 +105,9 @@
 
 @ul[brighten]
 
-* 画面を音声出力するだけじゃダメ
-* 長文、曖昧な文はダメ
-* ユーザーに再確認のチャンスを与えないとダメ
+- 画面を音声出力するだけじゃダメ
+- 長文、曖昧な文はダメ
+- ユーザーに再確認のチャンスを与えないとダメ
 
 @ulend
 
@@ -118,19 +115,18 @@
 
 ### UI/UX ガイドライン
 
-* [Alexa VUI](https://developer.amazon.com/ja-JP/alexa/alexa-skills-kit/vui)
-* [Google Conversation Design](https://designguidelines.withgoogle.com/conversation/conversation-design/what-is-conversation-design.html#what-is-conversation-design-what-isnt-conversation-design)
+- [Alexa VUI](https://developer.amazon.com/ja-JP/alexa/alexa-skills-kit/vui)
+- [Google Conversation Design](https://designguidelines.withgoogle.com/conversation/conversation-design/what-is-conversation-design.html#what-is-conversation-design-what-isnt-conversation-design)
 
 ---
-
 
 ### ユーズケース紹介
 
 @ul[brighten]
 
-* ありそうなケース
-* 便利そうなケース
-* 高度そうなケース
+- ありそうなケース
+- 便利そうなケース
+- 高度そうなケース
 
 @ulend
 
@@ -140,9 +136,9 @@
 
 @ul[brighten]
 
-* 予約システム（レストランなど
-* 在庫確認システム
-* 対応状況確認システム
+- 予約システム（レストランなど
+- 在庫確認システム
+- 対応状況確認システム
 
 @ulend
 
@@ -152,9 +148,9 @@
 
 @ul[brighten]
 
-* 多言語ガイド
-* バリアフリー案内
-* 障害モニタリング
+- 多言語ガイド
+- バリアフリー案内
+- 障害モニタリング
 
 @ulend
 
@@ -164,9 +160,9 @@
 
 @ul[brighten]
 
-* 文字起こしサービス
-* 自動注文サービス (beerbot的な)
-* など?
+- 文字起こしサービス
+- 自動注文サービス (beerbot 的な)
+- など?
 
 @ulend
 
@@ -176,6 +172,6 @@
 
 plz follow:
 
-@fab[twitter] [matspod](https://twitter.com/matspod)
+@fab[twitter][matspod](https://twitter.com/matspod)
 
 ---
