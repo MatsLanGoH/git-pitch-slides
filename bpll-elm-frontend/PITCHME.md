@@ -8,14 +8,6 @@
 
 ---
 
-@snap[west]
-
-![Elm](bpll-elm-frontend/assets/elm-logo.png)
-
-@snapend
-
-@snap[east span-50 text-center]
-
 ## CONTENTS
 
 @ul[brighten]
@@ -26,12 +18,12 @@
 - 苦戦とよかったこと
 
 @ulend
-@snapend
 
 ---
 
 ### Elm って何?
 
+![Elm](bpll-elm-frontend/assets/elm-logo.png)
 +++
 
 ### 出会ったきっかけ
