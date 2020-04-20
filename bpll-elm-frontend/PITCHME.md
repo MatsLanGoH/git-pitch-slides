@@ -8,22 +8,10 @@
 
 ---
 
-## CONTENTS
-
-@ul[brighten]
-
-- Elm って何?
-- Elm の覚え方
-- いま何を作っている?
-- 苦戦とよかったこと
-
-@ulend
-
----
-
 ### Elm って何?
 
 ![Elm](bpll-elm-frontend/assets/elm-logo.png)
+
 +++
 
 ### 出会ったきっかけ
@@ -51,15 +39,19 @@
 
 +++
 
-### どんな感じ?
+@quote[JS がんばらなくてもフロントがかけるんだ](matsu)
 
----
++++
+
+[...ちょっと見てみよう](https://ellie-app.com/new)
+
++++
 
 ### Elm をどうやって覚えている?
 
 @ul[brighten]
 
-- [An Introduction to Elm](https://guide.elm-lang.org/)
+- [An Introduction to Elm](https://guide.elm-lang.org/): 基礎から
 - Brian P. Hogan 氏 [Exercises for Programmers](https://pragprog.com/book/bhwb/exercises-for-programmers)
   - ↑ あるあるエキササイズ。新しい言語を覚える時に便利。
 - [exercism.io](https://exercism.io/tracks/elm) Elm Track
@@ -71,12 +63,16 @@
 
 ### 何か作った?
 
++++
+
 @ul[brighten]
 
-- [天気予報アプリ](https://elm-weather-app.netlify.com/)
+#### [天気予報アプリ](https://elm-weather-app.netlify.com/)
+
 - [openweathermap.org](https://openweathermap.org)の API 利用
 - ある意味定番的エキササイズ
 - Decoder, List/map 処理, Http などのいい練習
+- そろそろ修正しないと
 
 @ulend
 
@@ -84,31 +80,15 @@
 
 ...でもなんだか物足りない
 
----
-
-## いま何を作っている?
-
 +++
 
-## 以下を求む
-
-@ul[brighten]
-
-- 日常的に使いたいもの → モチベーション
-- API も含めて何かを作る → 技術的挑戦
-- optional: 仕事で役にたつ何か。
-
-@ulend
-
-+++
-
-## よし、ニコカレを作ろう！
+## ニコカレ的なあれ
 
 +++
 
 @snap[west]
 
-![Elm Niconico](../elm-jp-summer2019/assets/elm_niconico_app_1.png)
+![Elm Niconico](bpll-elm-frontend/assets/elm_niconico_app_1.png)
 
 @snapend
 
@@ -148,61 +128,27 @@
 
 ---
 
-## 苦戦したこと
+## 感想
 
 +++
 
-@snap[west]
-
-### ダッシュボードむずい
-
-@ul[brighten]
-
-- その日の最新の登録だけ表示する
-- 登録がなければ Unset と表示する
-- 個人の時間、朝４〜６時だけなので
-- UTC で取得していることに気づかず
-- ...って、Elm の話じゃないね。
-
-@ulend
-
-@snapend
-
-@snap[east span-30]
-
-![Elm Niconico](elm-jp-summer2019/assets/elm_niconico_app_1.png)
-
-@snapend
-+++
-
-#### compiler がロジックミスから守ってくれない
-
-@ul[brighten]
-
-- ログアウトしてもまだダッシュボードが表示されとる？
-- トークンを破棄したものの、MoodList そのまま残しているやん
-- Model を初期化しよう!
-
-@ulend
+## Elm ちょっと困ったとこ
 
 +++
 
-### 地味に困っていること
-
 @ul[brighten]
 
+- JS をがちゃがちゃやるには限界がある([Ports](https://guide.elm-lang.jp/interop/ports.html)
+  )
 - 関数型慣れる必要ある (for loop ほしい)
-- ドキュメンテーション物足りない
-- モジュール分割（まだ気にしないけど）
+- ドキュメンテーション物足りないときある
 - `Time` やたらしんどい。
 
 @ulend
 
----
++++
 
 ## Elm のよいこと
-
-+++
 
 @ul[brighten]
 
@@ -222,14 +168,6 @@
 
 ---
 
-## Elm ちょっと困ったとこ
-
-- JS をがちゃがちゃやるには限界がある([Ports](https://guide.elm-lang.jp/interop/ports.html)
-  )
-- Time を使った処理がめんどい
-
----
-
 ## おまけ: 楽しいライブラリたち
 
 #### [Awesome Elm](https://github.com/sporto/awesome-elm)
@@ -238,7 +176,7 @@
 
 ## おまけ 2: 勉強会やりたい
 
-以上 DESU
+(以上)
 
 +++
 
@@ -246,6 +184,7 @@
 
 - [Elm Guide](https://guide.elm-lang.org)
 - [Elm Guide 日本語版](https://guide.elm-lang.jp/)
+- [Elm SPA Example](https://github.com/rtfeldman/elm-spa-example)
 
 ### THANK YOU!
 
