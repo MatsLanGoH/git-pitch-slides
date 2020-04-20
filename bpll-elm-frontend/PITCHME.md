@@ -4,7 +4,7 @@
 
 [BPLL #44](https://bpstudy.connpass.com/event/171284/)
 
-![Elm](bpll-elm-frontend/assets/elm-logo.svg)
+![Elm](bpll-elm-frontend/assets/elm-logo.png)
 
 @fab[twitter][matspod](https://twitter.com/matspod)
 
