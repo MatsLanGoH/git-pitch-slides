@@ -138,8 +138,7 @@
 
 @ul[brighten]
 
-- JS をがちゃがちゃやるには限界がある([Ports](https://guide.elm-lang.jp/interop/ports.html)
-  )
+- JS をがちゃがちゃやるには限界がある([Ports](https://guide.elm-lang.jp/interop/ports.html))
 - 関数型慣れる必要ある (for loop ほしい)
 - ドキュメンテーション物足りないときある
 - `Time` やたらしんどい。
