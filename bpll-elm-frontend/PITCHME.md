@@ -167,19 +167,19 @@
 
 ---
 
-## おまけ: 楽しいライブラリたち
+### おまけ その 1: 楽しいライブラリたち
 
-#### [Awesome Elm](https://github.com/sporto/awesome-elm)
+[Awesome Elm](https://github.com/sporto/awesome-elm)
 
 +++
 
-## おまけ 2: 勉強会やりたい
+### おまけ その 2: 勉強会やりたい
 
 (以上)
 
 +++
 
-## リンク集
+### リンク集
 
 - [Elm Guide](https://guide.elm-lang.org)
 - [Elm Guide 日本語版](https://guide.elm-lang.jp/)
